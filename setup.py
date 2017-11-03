@@ -28,7 +28,7 @@ DESC = " ".join(__import__('session_favorites').__doc__.splitlines()).strip()
 setup(
     name="django-session-favorites",
     version=__import__('session_favorites').get_version().replace(' ', '-'),
-    url='''',
+    url='',
     author='Arseny Sysolyatin',
     author_email='arseny.sysolyatin@gmail.com',
     description=DESC,
