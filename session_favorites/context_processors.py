@@ -1,7 +1,7 @@
-from apps.favorites.classes import Favorite
+from .classes import Favorite
 
 
-def add_favorite(request):
+def add_favorites(request):
     ctx = dict()
-    ctx['favorite'] = Favorite(request.session)
+    ctx['favorites'] = Favorite(request.session)
     return ctx
